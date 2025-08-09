@@ -8,16 +8,6 @@ This document provides cross-platform instructions to get the project up and run
 
 ## 🚀 Quickstart
 
-### For Windows (PowerShell)
-
-```powershell
-# 1. Run the PowerShell setup script
-.\setup.ps1
-
-# 2. (Optional) Start the development server
-.\setup.ps1 -StartDev
-```
-
 ### For Linux/macOS (Bash)
 
 ```bash
@@ -37,14 +27,6 @@ make run-dev
 ---
 
 ## 🛠️ Prerequisites
-
-### Windows
-- **PowerShell** 5.1 or later
-- **Node.js** ≥ v18 (includes `npm`)
-- **Python** ≥ 3.8 (`python3`, `pip3`)
-- **winget** (recommended for Ollama installation)
-- **uv** (will be auto-installed by setup.ps1 if missing)
-
 ### Linux/macOS
 - **Bash** 4.4 or higher
 - **Node.js** ≥ v18 (includes `npm`)
